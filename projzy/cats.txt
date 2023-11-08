@@ -1,0 +1,25 @@
+"""if len(start)<=1 or len(goal)<=1:
+            return 1
+        elif len(start)<=2 or len(goal)<=2:
+            if start[0]==goal[1]:
+                start=goal[0]+start
+                return 1+shifty_shifts_helper(start[2:], goal[2:], limit, dif+1)
+            elif start[1]==goal[0]:
+                start=start[1:]
+                return 1+shifty_shifts_helper(start[1:], goal[1:], limit, dif+1)
+            elif start[1]==goal[1]:
+                return 1+shifty_shifts_helper(start[2:], goal[2:], limit, dif+1)
+            else:
+                return 1+shifty_shifts_helper(start[1:], goal[1:], limit, dif+1)
+        elif start[0]==goal[2]:
+            start=goal[0,1]+start
+            return 2+shifty_shifts_helper(start[3:], goal[3:], limit, dif+2)
+        
+        elif start[2]==goal[0]:
+            start=start[2:]
+            return 2+shifty_shifts_helper(start[1:], goal[1:], limit, dif+2)
+        
+        elif start[2]==goal[2]:
+            return 2+shifty_shifts_helper(start[3:], goal[3:], limit, dif+2)
+        else:
+            return 1+shifty_shifts_helper(start[1:], goal[1:], limit, dif+1)"""
